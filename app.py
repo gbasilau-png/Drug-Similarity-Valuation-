@@ -4,7 +4,7 @@ import dash
 from dash import html, dcc
 
 # ---- Load your modules ----
-from shared.controls import create_controls  # weight sliders, threshold, chemical filters
+from shared.controls import weight_input_block, chemical_filter_dropdown  # weight sliders, threshold, chemical filters
 from modules.similarity import similarity_layout  # similarity network layout
 from modules.weak_profile import weak_profile_layout  # weak profile table layout
 from callbacks.similarity_callbacks import register_similarity_callbacks
@@ -24,7 +24,8 @@ app.layout = html.Div([
     html.Hr(),
 
     # Shared controls (weights, threshold, chemical filters)
-    create_controls(),
+    weight_input_block(),
+    chemical_filter_dropdown(),
 
     html.Hr(),
 
