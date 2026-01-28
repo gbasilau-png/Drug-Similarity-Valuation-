@@ -1,0 +1,656 @@
+﻿Sample number,Substance,Relative area (%),Unknown Substances,Category
+SAM_001,Caffeine,13.802,9,adulterant
+SAM_001,Papaverine,13.683,9,precursor
+SAM_001,Linoleic acid (99%),10.483,9,unknown
+SAM_001,6-Monoacetylmorphine,9.314,9,precursor
+SAM_001,Acetylcodeine,13.028,9,precursor
+SAM_001,Meconine,7.975,9,precursor
+SAM_001,Acetaminophen,11.346,9,adulterant
+SAM_001,Heroin,14.038,9,active
+SAM_001,Ecgonidine methyl ester,6.332,9,precursor
+SAM_002,Papaverine,26.281,9,precursor
+SAM_002,Cinnamoylcocaine,20.413,9,precursor
+SAM_002,Hydrocotarnine,7.543,9,precursor
+SAM_002,Meconine,18.484,9,precursor
+SAM_002,Phenacetin,27.28,9,adulterant
+SAM_003,Acetylthebaol,27.404,11,precursor
+SAM_003,Delta9-THC,38.597,11,active
+SAM_003,Diacetamate,33.999,11,unknown
+SAM_004,Meconine,8.67,12,precursor
+SAM_004,Acetaminophen,8.728,12,adulterant
+SAM_004,Ecgonidine methyl ester,11.216,12,precursor
+SAM_004,Cocaine,2.196,12,active
+SAM_004,Papaverine,4.38,12,precursor
+SAM_004,Phenacetin,0.478,12,adulterant
+SAM_004,Acetylthebaol,10.203,12,precursor
+SAM_004,Morphine,7.841,12,active
+SAM_004,Diacetamate,9.267,12,unknown
+SAM_004,Heroin,23.863,12,active
+SAM_004,N-acetylnorcocaine,9.305,12,precursor
+SAM_004,6-Monoacetylmorphine,3.853,12,precursor
+SAM_005,Ecgonine methyl ester,17.742,6,precursor
+SAM_005,6-Monoacetylmorphine,6.825,6,precursor
+SAM_005,Papaverine,1.59,6,precursor
+SAM_005,Tetramisole or levamisole,9.588,6,adulterant
+SAM_005,Caffeine,6.343,6,adulterant
+SAM_005,Phenacetin,6.59,6,adulterant
+SAM_005,Morphine,13.279,6,active
+SAM_005,Hydrocotarnine,19.598,6,precursor
+SAM_005,Meconine,10.364,6,precursor
+SAM_005,Ecgonidine methyl ester,8.081,6,precursor
+SAM_006,Phenacetin,24.314,4,adulterant
+SAM_006,Caffeine,5.351,4,adulterant
+SAM_006,Heroin,5.86,4,active
+SAM_006,Benzoylecgonine,2.16,4,precursor
+SAM_006,Hydrocotarnine,16.324,4,precursor
+SAM_006,Meconine,15.048,4,precursor
+SAM_006,Triacetin,0.112,4,unknown
+SAM_006,Ecgonine methyl ester,12.072,4,precursor
+SAM_006,6-Monoacetylmorphine,6.362,4,precursor
+SAM_006,Acetylcodeine,1.146,4,precursor
+SAM_006,Diacetamate,11.251,4,unknown
+SAM_007,Erucylamide,9.671,6,unknown
+SAM_007,Meconine,14.925,6,precursor
+SAM_007,Acetaminophen,26.737,6,adulterant
+SAM_007,Papaverine,15.196,6,precursor
+SAM_007,Hydrocotarnine,11.705,6,precursor
+SAM_007,Caffeine,9.518,6,adulterant
+SAM_007,Cocaine,12.248,6,active
+SAM_008,6-Monoacetylmorphine,7.095,1,precursor
+SAM_008,Acetylcodeine,8.345,1,precursor
+SAM_008,Meconine,17.515,1,precursor
+SAM_008,Cocaine,13.592,1,active
+SAM_008,Caffeine,12.94,1,adulterant
+SAM_008,Benzoic acid,12.478,1,unknown
+SAM_008,Noscapine,12.132,1,precursor
+SAM_008,Phenacetin,15.903,1,adulterant
+SAM_009,Dibutyl phthalate,22.023,12,unknown
+SAM_009,Heroin,44.691,12,active
+SAM_009,Phenacetin,33.285,12,adulterant
+SAM_010,Phenacetin,11.336,5,adulterant
+SAM_010,Lidocaine,8.691,5,adulterant
+SAM_010,Hydrocotarnine,6.448,5,precursor
+SAM_010,6-Monoacetylmorphine,20.47,5,precursor
+SAM_010,Cocaine,16.057,5,active
+SAM_010,Triacetin,22.118,5,unknown
+SAM_010,Acetylcodeine,14.88,5,precursor
+SAM_011,Heroin,53.281,11,active
+SAM_011,Phenacetin,46.719,11,adulterant
+SAM_012,Noscapine,1.588,3,precursor
+SAM_012,Heroin,4.422,3,active
+SAM_012,Phenacetin,20.144,3,adulterant
+SAM_012,Diacetamate,4.019,3,unknown
+SAM_012,Acetylcodeine,19.631,3,precursor
+SAM_012,Meconine,18.419,3,precursor
+SAM_012,Cocaine,4.129,3,active
+SAM_012,Thebaol,7.313,3,precursor
+SAM_012,Caffeine,13.672,3,adulterant
+SAM_012,Ecgonidine methyl ester,6.664,3,precursor
+SAM_013,Phenacetin,18.148,3,adulterant
+SAM_013,Caffeine,10.676,3,adulterant
+SAM_013,Phenetidine,18.341,3,adulterant
+SAM_013,Cocaine,8.985,3,active
+SAM_013,Triacetin,9.989,3,unknown
+SAM_013,Ecgonidine methyl ester,25.156,3,precursor
+SAM_013,Heroin,8.705,3,active
+SAM_014,Ecgonine methyl ester,3.969,12,precursor
+SAM_014,Acetaminophen,2.214,12,adulterant
+SAM_014,Tetramisole or levamisole,12.429,12,adulterant
+SAM_014,Acetylcodeine,8.705,12,precursor
+SAM_014,6-Monoacetylmorphine,7.317,12,precursor
+SAM_014,Heroin,9.556,12,active
+SAM_014,Cinnamoylcocaine,13.999,12,precursor
+SAM_014,Caffeine,10.751,12,adulterant
+SAM_014,Ecgonidine methyl ester,15.928,12,precursor
+SAM_014,Diacetamate,15.133,12,unknown
+SAM_015,6-Monoacetylmorphine,35.465,2,precursor
+SAM_015,Diacetamate,17.795,2,unknown
+SAM_015,Cocaine,16.075,2,active
+SAM_015,Heroin,3.505,2,active
+SAM_015,Meconine,16.178,2,precursor
+SAM_015,Acetylcodeine,10.984,2,precursor
+SAM_016,Cocaine,34.962,many,active
+SAM_016,Stearic acid,3.926,many,unknown
+SAM_016,Phenacetin,9.937,many,adulterant
+SAM_016,Papaverine,19.947,many,precursor
+SAM_016,Meconine,20.54,many,precursor
+SAM_016,Caffeine,1,many,adulterant
+SAM_016,Acetylcodeine,9.688,many,precursor
+SAM_017,Acetaminophen,13.4,12,adulterant
+SAM_017,Cocaine,12.35,12,active
+SAM_017,Benzoylecgonine,16.147,12,precursor
+SAM_017,"3,6-Dimethoxy-4,5-epoxyphenanthene",3.577,12,precursor
+SAM_017,Heroin,6.037,12,active
+SAM_017,Caffeine,19.776,12,adulterant
+SAM_017,Acetylcodeine,1.714,12,precursor
+SAM_017,Ecgonidine methyl ester,9.222,12,precursor
+SAM_017,Meconine,13.656,12,precursor
+SAM_017,Noscapine,4.123,12,precursor
+SAM_018,N-hexadecanoic acid,4.106,many,unknown
+SAM_018,Noscapine,5.698,many,precursor
+SAM_018,6-Monoacetylmorphine,15.767,many,precursor
+SAM_018,Caffeine,20.198,many,adulterant
+SAM_018,Triacetin,15.278,many,unknown
+SAM_018,Tropacocaine,13.382,many,precursor
+SAM_018,Ecgonidine methyl ester,15.941,many,precursor
+SAM_018,Diacetamate,9.63,many,unknown
+SAM_019,Cocaine,19.621,6,active
+SAM_019,Methyl palmitate,11.627,6,unknown
+SAM_019,6-Monoacetylmorphine,21.725,6,precursor
+SAM_019,Ecgonidine methyl ester,17.257,6,precursor
+SAM_019,Cinnamoylcocaine,15.262,6,precursor
+SAM_019,Hydrocotarnine,14.507,6,precursor
+SAM_020,Caffeine,49.586,6,adulterant
+SAM_020,Linoleic acid (99%),50.414,6,unknown
+SAM_021,Meconine,30.087,6,precursor
+SAM_021,Acetaminophen,20.085,6,adulterant
+SAM_021,Phenacetin,25.507,6,adulterant
+SAM_021,Cocaine,24.321,6,active
+SAM_022,Cocaine,20.694,3,active
+SAM_022,Ecgonidine methyl ester,23.871,3,precursor
+SAM_022,Phenacetin,29.898,3,adulterant
+SAM_022,6-Monoacetylmorphine,25.537,3,precursor
+SAM_023,Meconine,27.089,11,precursor
+SAM_023,Diacetamate,35.932,11,unknown
+SAM_023,Phenacetin,36.979,11,adulterant
+SAM_024,Hydrocotarnine,12.77,0,precursor
+SAM_024,Caffeine,25.272,0,adulterant
+SAM_024,Papaverine,13.953,0,precursor
+SAM_024,Ecgonine methyl ester,17.013,0,precursor
+SAM_024,Acetylthebaol,22.689,0,precursor
+SAM_024,Meconine,8.303,0,precursor
+SAM_025,Ecgonidine methyl ester,16.049,3,precursor
+SAM_025,Cocaine,14.177,3,active
+SAM_025,Phenetidine,20.31,3,adulterant
+SAM_025,Noscapine,14.804,3,precursor
+SAM_025,Acetylthebaol,16.461,3,precursor
+SAM_025,Meconine,18.198,3,precursor
+SAM_026,Papaverine,48.593,12,precursor
+SAM_026,Triacetin,51.407,12,unknown
+SAM_027,Acetaminophen,6.293,9,adulterant
+SAM_027,Phenetidine,3.594,9,adulterant
+SAM_027,Meconine,18.84,9,precursor
+SAM_027,Acetylthebaol,5.299,9,precursor
+SAM_027,Acetylcodeine,14.944,9,precursor
+SAM_027,Cocaine,10.949,9,active
+SAM_027,Phenacetin,10.33,9,adulterant
+SAM_027,Hydrocotarnine,9.102,9,precursor
+SAM_027,Caffeine,15.822,9,adulterant
+SAM_027,Papaverine,4.828,9,precursor
+SAM_028,Ecgonidine methyl ester,21.258,5,precursor
+SAM_028,Acetylcodeine,24.659,5,precursor
+SAM_028,Caffeine,32.052,5,adulterant
+SAM_028,Meconine,22.031,5,precursor
+SAM_029,Cocaine,28.955,4,active
+SAM_029,Noscapine,23.934,4,precursor
+SAM_029,P-phenetidine,16.497,4,adulterant
+SAM_029,Benzoic acid,21.628,4,unknown
+SAM_029,Delta9-THC,8.986,4,active
+SAM_030,6-Monoacetylmorphine,20.164,1,precursor
+SAM_030,P-phenetidine,21.586,1,adulterant
+SAM_030,Phenacetin,29.934,1,adulterant
+SAM_030,Cocaine,19.087,1,active
+SAM_030,Hydrocotarnine,9.229,1,precursor
+SAM_031,Acetaminophen,23.51,6,adulterant
+SAM_031,6-Monoacetylmorphine,22.89,6,precursor
+SAM_031,Cocaine,21.25,6,active
+SAM_031,Morphine,32.349,6,active
+SAM_032,Caffeine,17.546,1,adulterant
+SAM_032,6-Monoacetylmorphine,17.138,1,precursor
+SAM_032,Tetramisole or levamisole,27.378,1,adulterant
+SAM_032,Hydrocotarnine,25.209,1,precursor
+SAM_032,Noscapine,12.729,1,precursor
+SAM_033,Cocaine,5.789,5,active
+SAM_033,Meconine,11.867,5,precursor
+SAM_033,Phenacetin,15.525,5,adulterant
+SAM_033,Acetylcodeine,17.2,5,precursor
+SAM_033,Caffeine,16.095,5,adulterant
+SAM_033,Diacetamate,9.521,5,unknown
+SAM_033,Hydrocotarnine,8.669,5,precursor
+SAM_033,Benzoic acid,15.334,5,unknown
+SAM_034,Tropacocaine,28.265,11,precursor
+SAM_034,Cocaine,26.119,11,active
+SAM_034,Diacetamate,21.792,11,unknown
+SAM_034,Phenacetin,23.824,11,adulterant
+SAM_035,Phenacetin,17.702,3,adulterant
+SAM_035,Diacetamate,5.763,3,unknown
+SAM_035,Cocaine,7.577,3,active
+SAM_035,Acetaminophen,28.553,3,adulterant
+SAM_035,Ecgonidine methyl ester,18.614,3,precursor
+SAM_035,Norcocaine,2.103,3,precursor
+SAM_035,Stearic acid,12.91,3,unknown
+SAM_035,Caffeine,6.778,3,adulterant
+SAM_036,Acetaminophen,22.212,4,adulterant
+SAM_036,Papaverine,29.917,4,precursor
+SAM_036,Cocaine,21.451,4,active
+SAM_036,Diacetamate,26.42,4,unknown
+SAM_037,Caffeine,19.734,11,adulterant
+SAM_037,N-hexadecanoic acid,16.88,11,unknown
+SAM_037,Acetylcodeine,12.724,11,precursor
+SAM_037,Triacetin,24.028,11,unknown
+SAM_037,Ecgonine methyl ester,13.882,11,precursor
+SAM_037,Acetylthebaol,12.751,11,precursor
+SAM_038,Phenacetin,18.728,many,adulterant
+SAM_038,Lidocaine,15.08,many,adulterant
+SAM_038,Papaverine,15.247,many,precursor
+SAM_038,Diacetamate,12.576,many,unknown
+SAM_038,Heroin,11.74,many,active
+SAM_038,Acetylcodeine,10.96,many,precursor
+SAM_038,Caffeine,8.753,many,adulterant
+SAM_038,Linoleic acid (99%),6.916,many,unknown
+SAM_039,Acetaminophen,20.281,9,adulterant
+SAM_039,Noscapine,9.309,9,precursor
+SAM_039,Acetylcodeine,16.489,9,precursor
+SAM_039,Heroin,7.795,9,active
+SAM_039,Phenacetin,14.278,9,adulterant
+SAM_039,Hydrocotarnine,17.861,9,precursor
+SAM_039,Papaverine,13.988,9,precursor
+SAM_040,6-Monoacetylmorphine,21.13,2,precursor
+SAM_040,Phenacetin,22.751,2,adulterant
+SAM_040,Acetylcodeine,11.337,2,precursor
+SAM_040,Hydrocotarnine,23.866,2,precursor
+SAM_040,Propionamide,20.916,2,precursor
+SAM_041,Noscapine,5.957,many,precursor
+SAM_041,Nicotine,12.436,many,active
+SAM_041,Stearic acid,6.14,many,unknown
+SAM_041,Ecgonidine methyl ester,6.241,many,precursor
+SAM_041,Acetylcodeine,16.329,many,precursor
+SAM_041,Heroin,15.471,many,active
+SAM_041,Benzoic acid,10.445,many,unknown
+SAM_041,Acetylthebaol,2.352,many,precursor
+SAM_041,Phenacetin,5.499,many,adulterant
+SAM_041,Meconine,11.256,many,precursor
+SAM_041,Papaverine,7.874,many,precursor
+SAM_042,Acetylcodeine,54.089,12,precursor
+SAM_042,6-Monoacetylmorphine,45.911,12,precursor
+SAM_043,Noscapine,11.261,many,precursor
+SAM_043,Meconine,7.448,many,precursor
+SAM_043,Methyl palmitate,6.426,many,unknown
+SAM_043,Phenacetin,11.114,many,adulterant
+SAM_043,Papaverine,3.38,many,precursor
+SAM_043,Diacetamate,10.625,many,unknown
+SAM_043,Benzoylecgonine,0.177,many,precursor
+SAM_043,Triacetin,5.303,many,unknown
+SAM_043,Ecgonidine methyl ester,6.085,many,precursor
+SAM_043,Cocaine,12.49,many,active
+SAM_043,Acetylcodeine,2.037,many,precursor
+SAM_043,6-Monoacetylmorphine,23.655,many,precursor
+SAM_044,Meconine,18.831,many,precursor
+SAM_044,Heroin,25.747,many,active
+SAM_044,Acetaminophen,28.491,many,adulterant
+SAM_044,Cocaine,26.931,many,active
+SAM_045,Phenacetin,9.306,11,adulterant
+SAM_045,Triacetin,14.457,11,unknown
+SAM_045,Ecgonidine methyl ester,2.383,11,precursor
+SAM_045,Acetylcodeine,11.704,11,precursor
+SAM_045,Noscapine,1.157,11,precursor
+SAM_045,Caffeine,12.631,11,adulterant
+SAM_045,Hydrocotarnine,9.444,11,precursor
+SAM_045,Tetramisole or levamisole,20.297,11,adulterant
+SAM_045,Papaverine,3.426,11,precursor
+SAM_045,Heroin,15.195,11,active
+SAM_046,Phenacetin,24.338,11,adulterant
+SAM_046,Heroin,30.975,11,active
+SAM_046,Triacetin,21.156,11,unknown
+SAM_046,Ecgonine methyl ester,23.531,11,precursor
+SAM_047,Heroin,6.503,4,active
+SAM_047,Cocaine,9.456,4,active
+SAM_047,Acetylcodeine,10.474,4,precursor
+SAM_047,Ecgonine methyl ester,26.576,4,precursor
+SAM_047,Caffeine,21.973,4,adulterant
+SAM_047,Acetaminophen,25.018,4,adulterant
+SAM_048,Acetaminophen,9.799,0,adulterant
+SAM_048,Cocaine,8.533,0,active
+SAM_048,Palmitic acid,7.981,0,unknown
+SAM_048,Benzoic acid,4.571,0,unknown
+SAM_048,Triacetin,18.082,0,unknown
+SAM_048,P-phenetidine,23.879,0,adulterant
+SAM_048,Noscapine,12.988,0,precursor
+SAM_048,6-Monoacetylmorphine,14.166,0,precursor
+SAM_049,Caffeine,13.7,6,adulterant
+SAM_049,Heroin,7.584,6,active
+SAM_049,Cocaine,21.664,6,active
+SAM_049,Acetylcodeine,17.208,6,precursor
+SAM_049,Phenacetin,24.149,6,adulterant
+SAM_049,Meconine,15.695,6,precursor
+SAM_050,Meconine,8.522,12,precursor
+SAM_050,Phenacetin,8.585,12,adulterant
+SAM_050,Diacetamate,13.777,12,unknown
+SAM_050,Ecgonine methyl ester,8.664,12,precursor
+SAM_050,Heroin,10.189,12,active
+SAM_050,Triacetin,19.034,12,unknown
+SAM_050,Ecgonidine methyl ester,22.222,12,precursor
+SAM_050,Cocaine,9.006,12,active
+SAM_051,Acetylcodeine,10.248,3,precursor
+SAM_051,Meconine,21.01,3,precursor
+SAM_051,Phenacetin,10.141,3,adulterant
+SAM_051,Heroin,17.28,3,active
+SAM_051,Ecgonidine methyl ester,13.927,3,precursor
+SAM_051,Acetaminophen,27.394,3,adulterant
+SAM_052,Phenacetin,12.211,9,adulterant
+SAM_052,Meconine,18.499,9,precursor
+SAM_052,Cocaine,14.269,9,active
+SAM_052,Acetylcodeine,11.645,9,precursor
+SAM_052,N-acetylnorcocaine,3.894,9,precursor
+SAM_052,Hydrocotarnine,5.245,9,precursor
+SAM_052,Heroin,9.29,9,active
+SAM_052,Noscapine,24.947,9,precursor
+SAM_053,Cocaine,50.732,0,active
+SAM_053,Papaverine,49.268,0,precursor
+SAM_054,6-Monoacetylmorphine,3.072,4,precursor
+SAM_054,Glycerol triacetate,8.156,4,unknown
+SAM_054,Acetylcodeine,12.967,4,precursor
+SAM_054,Meconine,17.703,4,precursor
+SAM_054,Ecgonine methyl ester,6.11,4,precursor
+SAM_054,Papaverine,5.17,4,precursor
+SAM_054,Heroin,5.239,4,active
+SAM_054,Ecgonidine methyl ester,18.151,4,precursor
+SAM_054,Phenacetin,5.264,4,adulterant
+SAM_054,Triacetin,17.323,4,unknown
+SAM_054,Hydrocotarnine,0.845,4,precursor
+SAM_055,Acetylthebaol,5.873,many,precursor
+SAM_055,Diacetamate,23.374,many,unknown
+SAM_055,Heroin,17.826,many,active
+SAM_055,Phenacetin,18.005,many,adulterant
+SAM_055,Caffeine,16.999,many,adulterant
+SAM_055,Noscapine,17.923,many,precursor
+SAM_056,"3,6-Dimethoxy-4,5-epoxyphenanthene",11.465,9,precursor
+SAM_056,Caffeine,18.092,9,adulterant
+SAM_056,Papaverine,17.028,9,precursor
+SAM_056,Acetylcodeine,19.768,9,precursor
+SAM_056,Ecgonine methyl ester,13.792,9,precursor
+SAM_056,Acetylthebaol,19.855,9,precursor
+SAM_057,Heroin,19.64,5,active
+SAM_057,Cocaine,12.383,5,active
+SAM_057,Diacetamate,25.61,5,unknown
+SAM_057,Ecgonidine methyl ester,7.156,5,precursor
+SAM_057,Caffeine,7.363,5,adulterant
+SAM_057,Acetaminophen,10.743,5,adulterant
+SAM_057,Hydrocotarnine,17.104,5,precursor
+SAM_058,Caffeine,7.391,2,adulterant
+SAM_058,Heroin,18.334,2,active
+SAM_058,Acetaminophen,12.746,2,adulterant
+SAM_058,Morphine,13.764,2,active
+SAM_058,Benzoic acid,10.091,2,unknown
+SAM_058,Acetylcodeine,8.865,2,precursor
+SAM_058,Diacetamate,11.71,2,unknown
+SAM_058,Hydrocotarnine,16.616,2,precursor
+SAM_058,6-Monoacetylmorphine,0.483,2,precursor
+SAM_059,Meconine,14.635,1,precursor
+SAM_059,Papaverine,14.305,1,precursor
+SAM_059,Phenacetin,20.596,1,adulterant
+SAM_059,Heroin,8.181,1,active
+SAM_059,Caffeine,9.902,1,adulterant
+SAM_059,Ecgonidine methyl ester,10.345,1,precursor
+SAM_059,Acetylcodeine,4.303,1,precursor
+SAM_059,6-Monoacetylmorphine,17.733,1,precursor
+SAM_060,Diacetamate,17.87,6,unknown
+SAM_060,Caffeine,10.936,6,adulterant
+SAM_060,Cinnamoylcocaine,9.179,6,precursor
+SAM_060,Acetaminophen,14.309,6,adulterant
+SAM_060,Meconine,6.673,6,precursor
+SAM_060,Papaverine,23.55,6,precursor
+SAM_060,Morphine,17.482,6,active
+SAM_061,Acetylcodeine,7.133,0,precursor
+SAM_061,Diacetamate,16.714,0,unknown
+SAM_061,6-Monoacetylmorphine,3.433,0,precursor
+SAM_061,Phenacetin,6.472,0,adulterant
+SAM_061,Acetaminophen,17.523,0,adulterant
+SAM_061,"3',4',5'-Trimethoxycocaine",6.33,0,precursor
+SAM_061,Heroin,9.998,0,active
+SAM_061,Ecgonidine methyl ester,11.819,0,precursor
+SAM_061,Triacetin,7.265,0,unknown
+SAM_061,Acetylthebaol,13.314,0,precursor
+SAM_062,Caffeine,15.178,1,adulterant
+SAM_062,Tetramisole or levamisole,20.709,1,adulterant
+SAM_062,Thebaol,10.619,1,precursor
+SAM_062,Cinnamoylcocaine,9.716,1,precursor
+SAM_062,Triacetin,12.739,1,unknown
+SAM_062,Phenacetin,13.817,1,adulterant
+SAM_062,Heroin,14.427,1,active
+SAM_062,P-phenetidine,2.795,1,adulterant
+SAM_063,Meconine,19.828,0,precursor
+SAM_063,Hydrocotarnine,4.149,0,precursor
+SAM_063,Caffeine,10.025,0,adulterant
+SAM_063,Acetylcodeine,12.314,0,precursor
+SAM_063,Tetramisole or levamisole,34.802,0,adulterant
+SAM_063,Noscapine,18.882,0,precursor
+SAM_064,Caffeine,3.234,3,adulterant
+SAM_064,Acetylcodeine,28.186,3,precursor
+SAM_064,Ecgonidine methyl ester,18.838,3,precursor
+SAM_064,Acetylthebaol,14.798,3,precursor
+SAM_064,6-Monoacetylmorphine,11.388,3,precursor
+SAM_064,Cinnamoylcocaine,23.554,3,precursor
+SAM_065,Phenacetin,30.063,11,adulterant
+SAM_065,Diacetamate,19.018,11,unknown
+SAM_065,Squalene,26.445,11,unknown
+SAM_065,Caffeine,24.474,11,adulterant
+SAM_066,6-Monoacetylmorphine,47.848,6,precursor
+SAM_066,Noscapine,52.152,6,precursor
+SAM_067,Caffeine,11.224,2,adulterant
+SAM_067,Phenetidine,20.518,2,adulterant
+SAM_067,Diacetamate,39.005,2,unknown
+SAM_067,Heroin,13.881,2,active
+SAM_067,Acetaminophen,15.371,2,adulterant
+SAM_068,Meconine,16.743,2,precursor
+SAM_068,Phenetidine,19.239,2,adulterant
+SAM_068,Caffeine,19.201,2,adulterant
+SAM_068,N-acetylnorcocaine,14.598,2,precursor
+SAM_068,Noscapine,16.09,2,precursor
+SAM_068,Hydrocotarnine,14.13,2,precursor
+SAM_069,Acetaminophen,27.638,4,adulterant
+SAM_069,Heroin,2.398,4,active
+SAM_069,6-Monoacetylmorphine,9.12,4,precursor
+SAM_069,Phenacetin,28.784,4,adulterant
+SAM_069,Cocaine,15.192,4,active
+SAM_069,Meconine,13.406,4,precursor
+SAM_069,Ecgonidine methyl ester,3.463,4,precursor
+SAM_070,Cocaine,19.962,11,active
+SAM_070,Noscapine,6.379,11,precursor
+SAM_070,Diacetamate,24.861,11,unknown
+SAM_070,Papaverine,17.446,11,precursor
+SAM_070,Acetaminophen,31.353,11,adulterant
+SAM_071,Heroin,5.184,5,active
+SAM_071,Cocaine,15.345,5,active
+SAM_071,Phenacetin,3.682,5,adulterant
+SAM_071,Acetaminophen,7.047,5,adulterant
+SAM_071,Ecgonine methyl ester,4.722,5,precursor
+SAM_071,Tropacocaine,15,5,precursor
+SAM_071,Acetylcodeine,14.359,5,precursor
+SAM_071,Ecgonidine methyl ester,12.117,5,precursor
+SAM_071,Benzoic acid,7.872,5,unknown
+SAM_071,Caffeine,14.671,5,adulterant
+SAM_072,Heroin,13.801,1,active
+SAM_072,Papaverine,21.871,1,precursor
+SAM_072,Caffeine,3.395,1,adulterant
+SAM_072,Tetramisole or levamisole,17.811,1,adulterant
+SAM_072,Acetylcodeine,43.124,1,precursor
+SAM_073,Acetylcodeine,1.814,4,precursor
+SAM_073,Caffeine,5.393,4,adulterant
+SAM_073,Acetaminophen,7.825,4,adulterant
+SAM_073,6-Monoacetylmorphine,9.856,4,precursor
+SAM_073,Meconine,14.334,4,precursor
+SAM_073,Phenacetin,7.528,4,adulterant
+SAM_073,Diacetamate,2.903,4,unknown
+SAM_073,Cocaine,8.083,4,active
+SAM_073,Phenetidine,10.729,4,adulterant
+SAM_073,Hydrocotarnine,14.858,4,precursor
+SAM_073,Delta9-THC,16.677,4,active
+SAM_074,Acetaminophen,19.311,9,adulterant
+SAM_074,Heroin,5.082,9,active
+SAM_074,Caffeine,24.765,9,adulterant
+SAM_074,Cocaine,31.36,9,active
+SAM_074,Cinnamoylcocaine,6.249,9,precursor
+SAM_074,Noscapine,13.232,9,precursor
+SAM_075,Heroin,2.216,0,active
+SAM_075,Acetaminophen,3.507,0,adulterant
+SAM_075,6-Monoacetylmorphine,1.179,0,precursor
+SAM_075,Ecgonidine methyl ester,10.52,0,precursor
+SAM_075,Acetylthebaol,18.445,0,precursor
+SAM_075,Caffeine,28.511,0,adulterant
+SAM_075,Tetramisole or levamisole,14.089,0,adulterant
+SAM_075,Meconine,21.402,0,precursor
+SAM_075,Diacetamate,0.131,0,unknown
+SAM_076,Cocaine,14.335,5,active
+SAM_076,Phenacetin,13.116,5,adulterant
+SAM_076,Acetaminophen,17.917,5,adulterant
+SAM_076,Cinnamoylcocaine,16.893,5,precursor
+SAM_076,Diacetamate,16.042,5,unknown
+SAM_076,Papaverine,21.698,5,precursor
+SAM_077,Hydrocotarnine,23.767,3,precursor
+SAM_077,Ecgonidine methyl ester,37.496,3,precursor
+SAM_077,Ecgonine methyl ester,38.737,3,precursor
+SAM_078,Cinnamoylcocaine,14.518,6,precursor
+SAM_078,Meconine,21.492,6,precursor
+SAM_078,Triacetin,15.049,6,unknown
+SAM_078,Diacetamate,10.626,6,unknown
+SAM_078,Caffeine,15.15,6,adulterant
+SAM_078,Acetylcodeine,23.166,6,precursor
+SAM_079,6-Monoacetylmorphine,2.961,9,precursor
+SAM_079,Cocaine,22.315,9,active
+SAM_079,Ecgonine methyl ester,9.778,9,precursor
+SAM_079,Papaverine,11.863,9,precursor
+SAM_079,Acetylcodeine,16.449,9,precursor
+SAM_079,Heroin,13.307,9,active
+SAM_079,Ecgonidine methyl ester,9.909,9,precursor
+SAM_079,Meconine,13.418,9,precursor
+SAM_080,Acetaminophen,28.003,2,adulterant
+SAM_080,Cocaine,35.989,2,active
+SAM_080,Acetylcodeine,36.007,2,precursor
+SAM_081,6-Monoacetylmorphine,1.277,2,precursor
+SAM_081,Acetylcodeine,19.4,2,precursor
+SAM_081,Diacetamate,4.057,2,unknown
+SAM_081,Cocaine,21.246,2,active
+SAM_081,Ecgonine methyl ester,4.369,2,precursor
+SAM_081,Heroin,7.761,2,active
+SAM_081,Acetylthebaol,9.285,2,precursor
+SAM_081,Phenacetin,10.183,2,adulterant
+SAM_081,Caffeine,22.422,2,adulterant
+SAM_082,Phenacetin,9.875,11,adulterant
+SAM_082,Benzoic acid,4.512,11,unknown
+SAM_082,Acetylthebaol,11.66,11,precursor
+SAM_082,Acetaminophen TMS,4.64,11,adulterant
+SAM_082,Papaverine,12.291,11,precursor
+SAM_082,Acetylcodeine,19.358,11,precursor
+SAM_082,Diacetamate,2.959,11,unknown
+SAM_082,Triacetin,20.519,11,unknown
+SAM_082,Meconine,14.185,11,precursor
+SAM_083,Papaverine,6.313,3,precursor
+SAM_083,Phenacetin,20.253,3,adulterant
+SAM_083,Erucylamide,24.185,3,unknown
+SAM_083,Triacetin,12.405,3,unknown
+SAM_083,Diacetamate,16.82,3,unknown
+SAM_083,Phenetidine,20.025,3,adulterant
+SAM_084,Diacetamate,55.328,4,unknown
+SAM_084,N-acetylnorcocaine,44.672,4,precursor
+SAM_085,Tetramisole or levamisole,29.007,12,adulterant
+SAM_085,Noscapine,22.208,12,precursor
+SAM_085,"3,6-Dimethoxy-4,5-epoxyphenanthene",21.404,12,precursor
+SAM_085,Hydrocotarnine,27.381,12,precursor
+SAM_086,Cocaine,8.491,11,active
+SAM_086,Papaverine,8.875,11,precursor
+SAM_086,Diacetamate,15.739,11,unknown
+SAM_086,Ecgonidine methyl ester,6.39,11,precursor
+SAM_086,Meconine,10.063,11,precursor
+SAM_086,Heroin,5.043,11,active
+SAM_086,Caffeine,15.044,11,adulterant
+SAM_086,Acetylcodeine,19.433,11,precursor
+SAM_086,Noscapine,10.923,11,precursor
+SAM_087,Ecgonidine methyl ester,48.771,many,precursor
+SAM_087,Cocaine,51.229,many,active
+SAM_088,Acetylcodeine,6.987,2,precursor
+SAM_088,Phenacetin,17.765,2,adulterant
+SAM_088,Caffeine,8.443,2,adulterant
+SAM_088,Meconine,15.19,2,precursor
+SAM_088,Ecgonidine methyl ester,17.196,2,precursor
+SAM_088,Noscapine,10.254,2,precursor
+SAM_088,Cinnamoylcocaine,13.499,2,precursor
+SAM_088,Papaverine,10.667,2,precursor
+SAM_089,Papaverine,15.468,4,precursor
+SAM_089,Tropacocaine,5.202,4,precursor
+SAM_089,Phenacetin,3.441,4,adulterant
+SAM_089,Noscapine,2.373,4,precursor
+SAM_089,Meconine,5.149,4,precursor
+SAM_089,6-Monoacetylmorphine,6.253,4,precursor
+SAM_089,Ecgonine methyl ester,11.987,4,precursor
+SAM_089,Delta9-THC,1.714,4,active
+SAM_089,Morphine,11.183,4,active
+SAM_089,Triacetin,8.259,4,unknown
+SAM_089,Hydrocotarnine,10.198,4,precursor
+SAM_089,Ecgonidine methyl ester,16.822,4,precursor
+SAM_089,Benzoic acid,1.951,4,unknown
+SAM_090,Diacetamate,11.09,1,unknown
+SAM_090,Phenacetin,20.918,1,adulterant
+SAM_090,Heroin,21.031,1,active
+SAM_090,Papaverine,26.304,1,precursor
+SAM_090,Meconine,20.658,1,precursor
+SAM_091,Ecgonine methyl ester,21.644,3,precursor
+SAM_091,Caffeine,14.989,3,adulterant
+SAM_091,Propionamide,21.983,3,precursor
+SAM_091,Heroin,15.766,3,active
+SAM_091,Acetylthebaol,25.618,3,precursor
+SAM_092,Caffeine,13.692,3,adulterant
+SAM_092,Methyl benzoate,12.466,3,precursor
+SAM_092,Cocaine,16.762,3,active
+SAM_092,Ecgonidine,11.431,3,precursor
+SAM_092,Hydrocotarnine,21.305,3,precursor
+SAM_092,Meconine,12.06,3,precursor
+SAM_092,Acetylcodeine,12.283,3,precursor
+SAM_093,Cocaine,23.972,9,active
+SAM_093,Acetylcodeine,24.192,9,precursor
+SAM_093,Diacetamate,5.657,9,unknown
+SAM_093,Acetylthebaol,26.304,9,precursor
+SAM_093,Caffeine,19.875,9,adulterant
+SAM_094,Cocaine,6.333,11,active
+SAM_094,Ecgonidine methyl ester,28.79,11,precursor
+SAM_094,Papaverine,20.065,11,precursor
+SAM_094,Phenacetin,17.573,11,adulterant
+SAM_094,Heroin,24.112,11,active
+SAM_094,6-Monoacetylmorphine,3.125,11,precursor
+SAM_095,"3,6-Dimethoxy-4,5-epoxyphenanthene",15.45,many,precursor
+SAM_095,Hydrocotarnine,9.227,many,precursor
+SAM_095,Acetaminophen,18.418,many,adulterant
+SAM_095,6-Monoacetylmorphine,19.782,many,precursor
+SAM_095,Heroin,12.863,many,active
+SAM_095,Caffeine,8.744,many,adulterant
+SAM_095,Cocaine,14.629,many,active
+SAM_095,Papaverine,0.887,many,precursor
+SAM_096,Acetaminophen,9.965,12,adulterant
+SAM_096,Cocaine,21.019,12,active
+SAM_096,Noscapine,16.245,12,precursor
+SAM_096,Heroin,18.448,12,active
+SAM_096,Meconine,18.346,12,precursor
+SAM_096,Acetylcodeine,1.922,12,precursor
+SAM_096,Caffeine,6.32,12,adulterant
+SAM_096,Ecgonine methyl ester,7.735,12,precursor
+SAM_097,Caffeine,21.907,2,adulterant
+SAM_097,Diacetamate,12.275,2,unknown
+SAM_097,Noscapine,15.749,2,precursor
+SAM_097,Phenacetin,16.727,2,adulterant
+SAM_097,Heroin,9.378,2,active
+SAM_097,Cocaine,23.964,2,active
+SAM_098,Papaverine,11.629,many,precursor
+SAM_098,Phenacetin,22.505,many,adulterant
+SAM_098,Tropacocaine,10.713,many,precursor
+SAM_098,Caffeine,9.663,many,adulterant
+SAM_098,Glycerol triacetate,18.622,many,unknown
+SAM_098,Ecgonidine methyl ester,26.867,many,precursor
+SAM_099,Ecgonidine methyl ester,5.98,11,precursor
+SAM_099,Papaverine,15.881,11,precursor
+SAM_099,Phenacetin,4.406,11,adulterant
+SAM_099,Heroin,18.42,11,active
+SAM_099,Caffeine,14.721,11,adulterant
+SAM_099,Cinnamoylcocaine,26.358,11,precursor
+SAM_099,Acetaminophen,2.098,11,adulterant
+SAM_099,Phenetidine,12.135,11,adulterant
+SAM_100,Acetaminophen TMS,2.493,many,adulterant
+SAM_100,Heroin,1.34,many,active
+SAM_100,Acetylcodeine,9.75,many,precursor
+SAM_100,Cocaine,9.579,many,active
+SAM_100,Noscapine,11.662,many,precursor
+SAM_100,Acetaminophen,9.963,many,adulterant
+SAM_100,Ecgonine methyl ester,17.965,many,precursor
+SAM_100,Ecgonine methyl ester,16.068,many,precursor
+SAM_100,Hydrocotarnine,12.614,many,precursor
+SAM_100,6-Monoacetylmorphine,8.566,many,precursor
+
