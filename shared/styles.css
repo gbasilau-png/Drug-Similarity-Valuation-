@@ -1,0 +1,26 @@
+/* shared/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000;
+}
+
+h1, h2, h3, h4 {
+    color: #000;
+}
+
+.dash-tabs {
+    font-size: 16px;
+}
+
+.dash-slider .rc-slider-track {
+    background-color: #1e88e5;
+}
+
+.dash-slider .rc-slider-handle {
+    border-color: #1e88e5;
+}
+
+.dash-dropdown {
+    font-size: 16px;
+}
