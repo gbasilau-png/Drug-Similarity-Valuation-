@@ -1,0 +1,14 @@
+# modules/cluster.py
+from dash import html
+def layout():
+    return html.H3("Cluster Analysis Module Coming Soon...")
+
+# modules/trend.py
+from dash import html
+def layout():
+    return html.H3("Trend Analysis Module Coming Soon...")
+
+# modules/anomaly.py
+from dash import html
+def layout():
+    return html.H3("Anomaly Detection Module Coming Soon...")
