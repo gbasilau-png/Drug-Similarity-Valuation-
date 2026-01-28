@@ -1,105 +1,64 @@
+# app.py
+import os
 import dash
-from dash import html, dcc, Output, Input, State
-import plotly.graph_objects as go
-import networkx as nx
-import pandas as pd
+from dash import html, dcc
 
-from shared.utils import load_data, compute_similarity, joint_similarity, build_network
+# ---- Load your modules ----
+from shared.controls import create_controls  # weight sliders, threshold, chemical filters
+from modules.similarity import similarity_layout  # similarity network layout
+from modules.weak_profile import weak_profile_layout  # weak profile table layout
+from callbacks.similarity_callbacks import register_similarity_callbacks
+from callbacks.weak_profile_callbacks import register_weak_profile_callbacks
 
-# Load data
-df_samples = load_data()
-cos_sim, eu_sim, jaccard_sim = compute_similarity(df_samples)
+# ---- Initialize Dash app ----
+app = dash.Dash(
+    __name__,
+    suppress_callback_exceptions=True,
+    meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}],
+)
+app.title = "Chemical Similarity Dashboard"
 
-# Dash app
-app = dash.Dash(__name__)
-server = app.server  # for Gunicorn
-
+# ---- Layout ----
 app.layout = html.Div([
-    html.H1("Chemical Sample Similarity Dashboard"),
-    
-    html.Div([
-        html.Label("Cosine Weight"),
-        dcc.Slider(id='w_cos', min=0, max=1, step=0.05, value=0.33),
-        html.Label("Euclidean Weight"),
-        dcc.Slider(id='w_eu', min=0, max=1, step=0.05, value=0.33),
-        html.Label("Jaccard Weight"),
-        dcc.Slider(id='w_jac', min=0, max=1, step=0.05, value=0.34),
-        html.Label("Similarity Threshold"),
-        dcc.Slider(id='threshold', min=0, max=1, step=0.05, value=0.5),
-        html.Button("Save Joint Similarity CSV", id="save-btn"),
-        html.Div(id="save-status")
-    ], style={'width':'30%', 'display':'inline-block', 'verticalAlign':'top'}),
-    
-    html.Div([
-        dcc.Graph(id='network-graph')
-    ], style={'width':'68%', 'display':'inline-block', 'paddingLeft':20})
+    html.H1("Chemical Similarity Dashboard", style={"textAlign": "center"}),
+    html.Hr(),
+
+    # Shared controls (weights, threshold, chemical filters)
+    create_controls(),
+
+    html.Hr(),
+
+    # Tabs for different modules
+    dcc.Tabs(id="tabs", value="tab-similarity", children=[
+        dcc.Tab(label="Similarity Analysis", value="tab-similarity"),
+        dcc.Tab(label="Weak Profile Detection", value="tab-weak-profile"),
+        dcc.Tab(label="Cluster Analysis", value="tab-cluster"),
+        dcc.Tab(label="Trend Analysis", value="tab-trend"),
+        dcc.Tab(label="Anomaly Detection", value="tab-anomaly"),
+    ]),
+    html.Div(id="tabs-content")  # content is updated dynamically
 ])
 
-# Callback for updating network
+# ---- Tab content callback ----
 @app.callback(
-    Output('network-graph', 'figure'),
-    Input('w_cos', 'value'),
-    Input('w_eu', 'value'),
-    Input('w_jac', 'value'),
-    Input('threshold', 'value')
+    dash.dependencies.Output("tabs-content", "children"),
+    [dash.dependencies.Input("tabs", "value")]
 )
-def update_network(w_cos, w_eu, w_jac, threshold):
-    sim_df = joint_similarity(cos_sim, eu_sim, jaccard_sim, w_cos, w_eu, w_jac)
-    G = build_network(sim_df, threshold)
-    
-    pos = nx.spring_layout(G, seed=42)
-    edge_x, edge_y = [], []
-    for edge in G.edges():
-        x0, y0 = pos[edge[0]]
-        x1, y1 = pos[edge[1]]
-        edge_x.extend([x0, x1, None])
-        edge_y.extend([y0, y1, None])
+def render_tab_content(tab):
+    if tab == "tab-similarity":
+        return similarity_layout
+    elif tab == "tab-weak-profile":
+        return weak_profile_layout
+    else:
+        return html.Div("Coming soon...")
 
-    edge_trace = go.Scatter(
-        x=edge_x, y=edge_y,
-        line=dict(width=1, color='#888'),
-        hoverinfo='none',
-        mode='lines'
-    )
+# ---- Register callbacks ----
+register_similarity_callbacks(app)
+register_weak_profile_callbacks(app)
 
-    node_x, node_y, node_text = [], [], []
-    for node in G.nodes():
-        x, y = pos[node]
-        node_x.append(x)
-        node_y.append(y)
-        node_text.append(node)
+# ---- Expose server for Gunicorn ----
+server = app.server
 
-    node_trace = go.Scatter(
-        x=node_x, y=node_y,
-        mode='markers+text',
-        text=node_text,
-        textposition="bottom center",
-        hoverinfo='text',
-        marker=dict(size=15, color='skyblue')
-    )
-
-    fig = go.Figure(data=[edge_trace, node_trace],
-                    layout=go.Layout(
-                        showlegend=False,
-                        hovermode='closest',
-                        margin=dict(b=20,l=5,r=5,t=40)
-                    ))
-    return fig
-
-# Callback for saving CSV
-@app.callback(
-    Output('save-status', 'children'),
-    Input('save-btn', 'n_clicks'),
-    State('w_cos', 'value'),
-    State('w_eu', 'value'),
-    State('w_jac', 'value')
-)
-def save_csv(n_clicks, w_cos, w_eu, w_jac):
-    if n_clicks:
-        sim_df = joint_similarity(cos_sim, eu_sim, jaccard_sim, w_cos, w_eu, w_jac)
-        sim_df.to_csv("data/Joint_Similarity.csv")
-        return f"Joint_Similarity.csv saved!"
-    return ""
-
-if __name__ == '__main__':
-    app.run_server(debug=True)
+# ---- Run locally (dev) ----
+if __name__ == "__main__":
+    app.run_server(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 8050)))
